@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FOODIE'S - Hunger Junction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yusei+Magic&display=swap"
+        rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="home.html"><img src="img/logo6.png" alt="" width="180px" height="70px"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html" style="color: black;">Login</a></li>
+                    <li><a href="login.html" style="color: black;">SignUp</a></li>
+                    <li><a href="bloglist.html" style="color: black;">Blogs</a></li>
+                    <li><a href="map.html" style="color: black;">Restaurant Near you</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-img">
+        <div class="welcome-text">
+            <div class='console-container'>
+                <span id='text' style="font-family: 'Yusei Magic', sans-serif;"></span>
+                <div class='console-underscore' id='console'>&#95;</div>
+            </div>
+        </div>
+        <div class="explore-search">
+            <form action="#">
+                <input type="text" name="bycity" placeholder="   Enter Your Current City">
+                <input type="text" name="byitem" placeholder="   Enter Food Item">
+                <br><br>
+               <button class="btn btn-lg btn-default"
+                    style="border-radius: 40px;border-color: black;margin-left: 250px;"><a href="stalllist.html">Find stall.</a>
+               </button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="tagline">
+        Foodie.com is the online platform for all types of foodie who loves to eat.<br>
+        Foodies where Where taste meets the myth.
+    </div>
+
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/c1.jpg" alt="Los Angeles" style="width: 100%; height: 600px; ">
+                </div>
+
+                <div class="item">
+                    <img src="img/c2.jpg" alt="Chicago" style="width: 100%; height: 600px;">
+                </div>
+
+                <div class="item">
+                    <img src="img/c3.jpg" alt="New York" style="width: 100%; height: 600px;">
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <p style="font-size: 50px;text-align: center;font-family: 'Fredoka One', cursive;">Our Top Picks</p>
+            </div>
+        </div>
+        <div class="carousel-item active">
+            <div class="col-md-4">
+                <div class="card c1" style="position: relative;">
+                    <a href="stalllist.html">
+                        <img src="img/card1.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 25%;">
+                        <h3><b> Pani puri </b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 c2">
+                <div class="card" style="position: relative;">
+                    <a href="stalllist.html">
+                        <img src="img/card2.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Kabab </b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 c3">
+                <div class="card" style="position: relative;">
+                    <a href="stalllist.html">
+                        <img src="img/card3.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Food Truck </b></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="col-md-4 c1">
+                <div class="card" style="position: relative;">
+                    <a href="stalllist.html">
+                        <img src="img/card4.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Vada Pav </b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 c5">
+                <div class="card" style="position: relative;">
+                    <a href="stalllist.html">
+                        <img src="img/card5.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Beverages </b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 c3">
+                <div class="card" style="position: relative;">
+                    <a href="stalllist.html">
+                        <img src="img/card6.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Chinese </b></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item c1">
+            <div class="col-md-4">
+                <div class="card" style="position: relative;">
+                    <a href="#">
+                        <img src="img/card7.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Sweet </b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 c6">
+                <div class="card" style="position: relative;">
+                    <a href="#">
+                        <img src="img/card8.jpg" style="width: 300px;height: 300px;">
+                    </a>
+                    <div style="position: absolute; bottom: 0px;left: 30%;">
+                        <h3><b> Ice Cream </b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 c3">
+                <p style="font-size: 50px;text-align: center;font-family: 'Fredoka One', cursive;margin-top: 100px;">
+                    <a>& Many More</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="info" style="margin-top: 10px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-left"
+                        style="color: black;font-family: 'Fredoka One', cursive;text-align: center;margin-top: 30px;">
+                        <span style="font-size: 50px;">Near By Food Stall</span>
+                        <p style="padding: 30px 70px 0 70px;font-size: 25px;">Foodie's provide option to taste different
+                            variety of foods on
+                            different local food stall near by to user location. </p>
+                        <br>
+                        <button class="btn btn-default" style="font-size: large;"><a href="about.html"> Explore More</a> </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-right">
+                        <img src="img/sec1.jpg" alt="" style="width: 100%;height: 380px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-right">
+                        <img src="img/sec3.png" alt="" style="width: 100%;height: 380px;">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-left"
+                        style="color: black;font-family: 'Fredoka One', cursive;text-align: center;margin-top: 30px;">
+                        <span style="font-size: 50px;">Food @affordable price</span>
+                        <p style="padding: 30px 70px 0 70px;font-size: 25px;">Foodie's provide option to taste different
+                            variety of foods on
+                            different local food stall with affordable price</p>
+                        <br>
+                        <button class="btn btn-default" style="font-size: large;"><a href="about.html"> Explore More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-left"
+                        style="color: black;font-family: 'Fredoka One', cursive;text-align: center;margin-top: 30px;">
+                        <span style="font-size: 50px;">Certified by Foodies</span>
+                        <p style="padding: 30px 70px 0 70px;font-size: 25px;">Foodie's verify
+                            different local food stall on basis of rating & feedback of user</p>
+                        <br>
+                       <button class="btn btn-default" style="font-size: large;">
+                        <a href="about.html"> Explore More</a></button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-right">
+                        <img src="img/certified1.png" alt="" style="width: 100%;height: 380px;float: right;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container-fluid">
+            <div class="row">
+                <p style="font-size: 50px;text-align: center;font-family: 'Fredoka One', cursive;">How Foodies Works
+                    ...!!</p>
+            </div>
+        </div>
+        <div class="row infograph">
+            <div class="col-md-6"
+                style="color: black;font-family: 'Fredoka One', cursive;text-align: center;margin-top: 30px;">
+                <span style="font-size: 50px;">Foodie's workflow</span>
+                <ol style="padding: 30px 70px 0 70px;font-size: 23px;" type="1">
+                    <li>User Login or register to foodie's</li>
+                    <li>Search Food By Location or food Item</li>
+                    <li>Get information of food stalls</li>
+                    <li>Get route from current to food stall location</li>
+                    <li>Give Feedback & Rating of Food Stall</li>
+                </ol>
+                <br>
+                <button class="btn btn-default" style="font-size: large;">Explore More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="img/infograph.png" alt="infograph unable to load" style="width: 100%;height: 400px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <p>"Street food, I believe, is the salvation of the human race."</p>
+            <p class="customer">- Anthony Bourdain</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row" >
+            <p style="float: left;margin-left: 80px;">admin@foodies.com<br>020-459625802</p>
+            <p style="float: right;margin-right: 100px;">office no 76/A, Aerospace tower<br>model
+                colony,shivajinage<br>Pune-05</p>
+        </div>
+        <div style="position: relative; top:0; left:620px;">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
+            <a href="https://in.pinterest.com/login/" class="fa fa-pinterest"></a>
+            <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome" class="fa fa-snapchat-ghost"></a>
+        </div>
+        <p class="text-center" style="margin: 5px;">TechScroll Copyright &copy; 2017</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.bg-img', {
+            duration: 3000,
+            origin: 'top',
+            distance: '200px'
+        });
+
+        sr.reveal('#testimonial div', {
+            duration: 3000,
+            origin: 'right'
+        });
+
+        sr.reveal('.c1', {
+            duration: 3000,
+            origin: 'left',
+            distance: '100px'
+        });
+
+        sr.reveal('.c2', {
+            duration: 3000,
+            origin: 'up',
+            distance: '100px'
+        });
+
+        sr.reveal('.c3', {
+            duration: 3000,
+            origin: 'right',
+            distance: '100px'
+        });
+
+        sr.reveal('.c5', {
+            duration: 3000,
+            origin: 'bottom',
+        });
+
+        sr.reveal('.c6', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '100px'
+        });
+
+        sr.reveal('.info-left', {
+            duration: 3000,
+            origin: 'left',
+            distance: '100px'
+        });
+
+        sr.reveal('.info-right', {
+            duration: 3000,
+            origin: 'right',
+            distance: '100px'
+        });
+
+        sr.reveal('#testimonial,#work', {
+            duration: 4000,
+            origin: 'bottom',
+        });
+
+        sr.reveal('.tagline', {
+            duration: 4000,
+            origin: 'bottom',
+        });
+
+
+    </script>
+
+    <script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

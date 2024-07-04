@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's - Blog List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/addblog.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:300italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Sofia&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href=""><img src="img/logo6.png" alt="" width="180px" height="70px"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html" style="color: black;">Login</a></li>
+                    <li><a href="login.html" style="color: black;">SignUp</a></li>
+                    <li><a href="bloglist.html" style="color: black;">Blogs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="blog-cover-img">
+        <div class="blog-text">
+            <div class="blog-title">
+                FOODIE'S BLOG
+            </div>
+        </div>
+    </div>
+
+    <div class="container addblog">
+        <form action="#">
+            <div class="form-group">
+              <label>Blog Title:</label>
+              <input type="blogtitle" class="form-control" id="blogtitle">
+            </div>
+            <div class="form-group">
+              <label>Blog Content:</label>
+              <textarea class="form-control" rows="15" id="comment" style="border: 1px solid black;"></textarea>
+            </div>
+            <button type="text" class="btn btn-md btn-default" style=" font-family: 'Dosis', sans-serif;font-size: 20px;">Submit</button>
+          </form>
+    </div>
+
+    <br><br>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

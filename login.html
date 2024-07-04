@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODIE'S - Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Patrick+Hand&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row box">
+        <div class="col-md-5">
+            <div class="box-left" style="color: white;background-color: rgba(0, 0, 0, 0.623);margin-left: -14px;border-radius: 40px 0 0 40px;text-align: center;">
+                <span> <img src="img/logo6.png" alt="" width="160px" height="40px" style="margin-top: 20px;"> </span>  
+                <h1 style="font-family: 'Luckiest Guy', cursive;">Welcome To FOODIE'S</h1>
+                <h3 style="font-family: 'Satisfy', cursive;">Where taste meets the myth.</h3>
+                <br><br><br><br>
+                <div id="box-btn">
+                    <button class="btn btn-lg btn-default" onclick="showform('box-right-1')">Login</button><br><br>
+                    <button class="btn btn-lg btn-default" onclick="showform('box-right-2')">Register as User</button><br><br>
+                    <button class="btn btn-lg btn-default" onclick="showform('box-right-3')">Register as Stall</button><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-7" id="form-place">
+            main
+        </div>
+    </div>
+
+    <div class="box-right" id="box-right-1" >
+      <span> </span>
+      <br><br><br>
+      <h1 style="text-align: center;font-family: 'Luckiest Guy', cursive;color: white;">Login Form</h1>
+      <br>
+      <form class="form-horizontal" action="/action_page.php" style="color: white;">
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Username:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="username" name="username" placeholder="Enter Username" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Password:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label><input type="checkbox">Remember me</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default" style="width: 140px;height: 45px;color:white;margin-left: 180px;font-size: 20px ;border-radius: 25px;background: transparent;border: 1px solid white;">Submit</button>
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <div class="box-right" id="box-right-2" >
+      <span> </span>
+      <br>
+      <h1 style="text-align: center;font-family: 'Luckiest Guy', cursive;color: white;margin: 0;">Registration Form</h1>
+      <br>
+      <form class="form-horizontal" action="/action_page.php" style="color: white;">
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Username:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Password:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Mobile Number:</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="mob" name="mob" placeholder="Enter Mobile Number" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >State:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="state" name="state" placeholder="Enter State" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >City:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="city" name="city" placeholder="Enter City" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Street:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="street" name="street" placeholder="Enter Street" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Pincode:</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="pincode" name="pincode" placeholder="Enter City" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default" style="width: 140px;height: 45px;color:white;margin-left: 180px;font-size: 20px ;border-radius: 25px;background: transparent;border: 1px solid white;">Submit</button>
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <div class="box-right" id="box-right-3" >
+      
+      <h1 style="text-align: center;font-family: 'Luckiest Guy', cursive;color: white;margin-top: 0;">Stall Registraion Form</h1>
+
+      <form class="form-horizontal" action="/action_page.php" style="color: white;">
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Shop Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="shopname" name="shopname" placeholder="Enter Shop Name" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Owner Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="ownername" name="ownername" placeholder="Enter Owner" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >User Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Password:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Mobile Number:</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="mob" name="mob" placeholder="Enter Mobile Number" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >State:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="state" name="state" placeholder="Enter State" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >City:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="city" name="city" placeholder="Enter City" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Street:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="street" name="street" placeholder="Enter Street" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" >Pincode:</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="pincode" name="pincode" placeholder="Enter City" style="width: 500px;height: 40px;border-radius: 25px;background: transparent;border: 1px solid white;">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default" style="width: 140px;height: 40px;color:white;margin-left: 180px;font-size: 20px ;border-radius: 25px;background: transparent;border: 1px solid white;">Submit</button>
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

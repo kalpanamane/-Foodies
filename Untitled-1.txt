@@ -1,0 +1,12 @@
+#include <iostream>
+#include <graphics.h>
+#include <conio.h>
+using namespace std;
+
+int main(void) {
+int gd = DETECT , gm;
+putpixel(1,1, RED);
+getch();
+closegraph();
+    return 0;
+}
